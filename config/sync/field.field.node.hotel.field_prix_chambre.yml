@@ -1,0 +1,23 @@
+uuid: 9197b0b0-2384-43d9-93b5-552c4ee131eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prix_chambre
+    - node.type.hotel
+id: node.hotel.field_prix_chambre
+field_name: field_prix_chambre
+entity_type: node
+bundle: hotel
+label: "Prix\td’une\tchambre\tpar\tjour"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

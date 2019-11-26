@@ -1,0 +1,23 @@
+uuid: d9976fc2-aa84-4ccd-86f0-c9cdd1121e31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pla
+    - node.type.programmes
+id: node.programmes.field_pla
+field_name: field_pla
+entity_type: node
+bundle: programmes
+label: 'Place Disponible'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,21 @@
+uuid: 7d1cdd8f-3cd4-43a5-9ae2-6d2ee02e5d84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description_du_programme
+    - node.type.programmes
+  module:
+    - text
+id: node.programmes.field_description_du_programme
+field_name: field_description_du_programme
+entity_type: node
+bundle: programmes
+label: "Description\tdu\tprogramme"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

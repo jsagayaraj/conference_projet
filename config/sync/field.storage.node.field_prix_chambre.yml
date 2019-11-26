@@ -1,0 +1,18 @@
+uuid: f1c72c3f-df0d-4e28-bc3b-73523758b24f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_prix_chambre
+field_name: field_prix_chambre
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

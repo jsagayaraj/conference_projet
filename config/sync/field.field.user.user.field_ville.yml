@@ -1,0 +1,20 @@
+uuid: 7ce97492-6f6f-4018-a2ed-a4c9018730e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_ville
+  module:
+    - user
+id: user.user.field_ville
+field_name: field_ville
+entity_type: user
+bundle: user
+label: Ville
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

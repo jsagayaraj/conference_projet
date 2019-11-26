@@ -1,0 +1,14 @@
+uuid: 1a25a196-9578-4836-b4df-943bc42eb384
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.organisateur_de_programme
+  module:
+    - user
+id: user_add_role_action.organisateur_de_programme
+label: "Add the Organisateur\tde\tprogramme role to the selected user(s)"
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: organisateur_de_programme
