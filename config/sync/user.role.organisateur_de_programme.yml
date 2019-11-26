@@ -1,0 +1,9 @@
+uuid: 06c7a4f8-9924-4555-868d-81500625a2e1
+langcode: en
+status: true
+dependencies: {  }
+id: organisateur_de_programme
+label: "Organisateur\tde\tprogramme"
+weight: 4
+is_admin: null
+permissions: {  }

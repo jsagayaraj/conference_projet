@@ -1,0 +1,19 @@
+super_login:
+  login_text: 'Log In'
+  forgot_pw_text: 'Forgot Password?'
+  capslock_msg: 'Caps Lock On'
+  new_account_text: 'Create new account'
+  login_title: 'Username or e-mail address'
+  password_reset_title: 'Password Reset'
+  back_link: 'Go back to the login page.'
+  messages: 1
+  css: 1
+  button_theme: 1
+  placeholder: 1
+  autofocus: 1
+  login_type: '0'
+  capslock: 1
+  login_placeholder: 'Username or Email'
+  pass_placeholder: Password
+_core:
+  default_config_hash: hGqSFHiC87t9hTHpI_oBLKowQ-ZQ34o7avs3_NFLdcc

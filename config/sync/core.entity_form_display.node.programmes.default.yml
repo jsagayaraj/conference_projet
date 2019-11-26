@@ -1,0 +1,125 @@
+uuid: 1d495936-a5d4-437d-aed3-49948e089dcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.programmes.field_budget
+    - field.field.node.programmes.field_date_de_debut
+    - field.field.node.programmes.field_date_de_fin_
+    - field.field.node.programmes.field_description_du_programme
+    - field.field.node.programmes.field_organisateurs_du_programme
+    - field.field.node.programmes.field_participants_au_programme
+    - field.field.node.programmes.field_photo_de_programmes
+    - field.field.node.programmes.field_pla
+    - field.field.node.programmes.field_titre
+    - image.style.thumbnail
+    - node.type.programmes
+  module:
+    - datetime
+    - image
+    - path
+    - text
+id: node.programmes.default
+targetEntityType: node
+bundle: programmes
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_budget:
+    weight: 9
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_date_de_debut:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_date_de_fin_:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_description_du_programme:
+    weight: 8
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_organisateurs_du_programme:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_participants_au_programme:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_photo_de_programmes:
+    weight: 10
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_pla:
+    weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_titre:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  sticky: true
+  uid: true

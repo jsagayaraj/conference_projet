@@ -1,0 +1,36 @@
+uuid: 080ab066-79db-4942-b28f-c757c559dde8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.programmes.field_budget
+    - field.field.node.programmes.field_date_de_debut
+    - field.field.node.programmes.field_date_de_fin_
+    - field.field.node.programmes.field_description_du_programme
+    - field.field.node.programmes.field_organisateurs_du_programme
+    - field.field.node.programmes.field_participants_au_programme
+    - field.field.node.programmes.field_photo_de_programmes
+    - field.field.node.programmes.field_titre
+    - node.type.programmes
+  module:
+    - user
+id: node.programmes.teaser
+targetEntityType: node
+bundle: programmes
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_budget: true
+  field_date_de_debut: true
+  field_date_de_fin_: true
+  field_description_du_programme: true
+  field_organisateurs_du_programme: true
+  field_participants_au_programme: true
+  field_photo_de_programmes: true
+  field_titre: true
