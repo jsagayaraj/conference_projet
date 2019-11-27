@@ -1,0 +1,6 @@
+role_to_select:
+  participant: participant
+  administrator: 0
+  organisateur_de_programme: 0
+  webmaster: 0
+registration_mode: user

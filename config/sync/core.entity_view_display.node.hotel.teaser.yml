@@ -17,4 +17,10 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_de: true
+  field_email: true
+  field_photo_hotel: true
+  field_prix_chambre: true
+  field_telephone: true
+  field_titre_hotel: true

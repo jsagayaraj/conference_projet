@@ -33,4 +33,5 @@ hidden:
   field_organisateurs_du_programme: true
   field_participants_au_programme: true
   field_photo_de_programmes: true
+  field_pla: true
   field_titre: true
